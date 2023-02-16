@@ -99,7 +99,7 @@ img {
   margin-top: 90px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .site-menu ul {
     display: block;
     text-align: center;

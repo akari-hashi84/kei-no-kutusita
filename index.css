@@ -120,7 +120,7 @@
   margin-top: 15px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .first-view {
     height: calc(100vh - 50px);
     background-image: url(https://akari-hashi84.github.io/kei-no-kutusita/images/index/main-visual-sp.png);

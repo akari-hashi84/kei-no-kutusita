@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ｜Keiの靴下</title>
+  <meta name="description" content="keiの靴下のお問い合わせページ">
+  <meta name="viewport" content="width=device-width">
+  <script src="./js/toggle-menu.js"></script>
+  <link href="./css/common.css" rel="stylesheet">
+  <link href="./css/access.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- headerここから -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <img src="./images/common/keiの靴下-logp.png" alt="keiの靴下">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./concept.html">keiの靴下とは</a></li>
+            <li><a href="./shop.html">ショップ</a></li>
+            <li><a href="./access.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main class="main">
+    <div class="title">
+      <h1>お問い合わせ</h1>
+
+    </div>
+
+    <div class="contact">
+      <h2>お問い合わせフォーム</h2>
+      <form action="#">
+        <dl class="form-area">
+          <dt><span class="required">お名前</span></dt>
+          <dd><input class="input-text" type="text" name="name" required></dd>
+          <dt><span class="required">メールアドレス</span></dt>
+          <dd><input class="input-text" type="email" name="email" required></dd>
+          <dt>お電話番号</dt>
+          <dd><input class="input-text" type="tel" name="tel"></dd>
+          <dt>お問い合わせ種別</dt>
+          <dd>
+            <select class="select-box" name="genre">
+              <option value="商品について" selected>keiの靴下について</option>
+              <option value="keiの靴下について">発送について</option>
+              <option value="その他">その他</option>
+            </select>
+          </dd>
+          <dt>お客様について</dt>
+          <dd>
+            <label class="radio-button"><input type="radio" name="user-type" value="一般のお客様" checked>一般のお客様</label>
+            <label class="radio-button"><input type="radio" name="user-type" value="企業・団体様">企業団体様</label>
+            <label class="radio-button"><input type="radio" name="user-type" value="その他">その他</label>
+          </dd>
+          <dt><span class="required">お問い合わせ内容</span></dt>
+          <dd><textarea class="message" name="message" required></textarea></dd>
+        </dl>
+        <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ［確認］ボタンを押してください。</p>
+        <button class="submit-button" type="確認">確認</button>
+      </form>
+    </div>
+  </main>
+  <!-- mainここまで -->
+
+  <!-- footerここから -->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="./index.html">ホーム</a></li>
+        <li><a href="./concept.html">keiの靴下とは</a></li>
+        <li><a href="./shop.html">ショップ</a></li>
+        <li><a href="./access.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <a class="footer-logo" href="./index.html">
+      <img src="./images/common/keiの靴下-footer-logo.png" alt="keiの靴下">
+    </a>
+    <p class="footer-tel">TEL 01-2345-6789</p>
+    <p class="footer-time">Mail 848484@ochishi.ne.jp</p>
+    <p class="copyright"><small>&copy;keiの靴下</small></p>
+  </footer>
+  <!-- footerここまで -->
+
+</body>
+
+</html>

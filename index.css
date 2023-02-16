@@ -2,7 +2,7 @@
 
 .first-view {
   height: calc(100vh - 110px);
-  background-image: url(https://akari-hashi84.github.io/portfolio-ak84/images/index/main-visual.jpg);
+  background-image: url(https://akari-hashi84.github.io/kei-no-kutusita/images/index/main-visual.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -123,7 +123,7 @@
 @media (max-width: 800px) {
   .first-view {
     height: calc(100vh - 50px);
-    background-image: url(https://akari-hashi84.github.io/portfolio-ak84/images/index/main-visual-sp.png);
+    background-image: url(https://akari-hashi84.github.io/kei-no-kutusita/images/index/main-visual-sp.png);
     align-items: flex-start;
     
   }
